@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "outDir": "./dist",
-        "baseUrl": "src",
+        "baseUrl": "packages",
         "target": "es5",
         "module": "esnext",
         "jsx": "react",
@@ -17,6 +17,6 @@
         "resolveJsonModule": true,
         "isolatedModules": true
     },
-    "include": ["src/**/*"],
+    "include": ["packages/**/*"],
     "exclude": ["./dist"]
 }
